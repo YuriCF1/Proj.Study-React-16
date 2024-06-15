@@ -4,14 +4,20 @@ import { MovieResults, ResultsEntity } from "../Interfaces/MoviesInterface"
 
 const imageURL = import.meta.env.VITE_IMG
 
-const MovieCard = ({ movieSent }: { movieSent: ResultsEntity }, showLink = true) => {
+interface MovieCardProps {
+    movieSent: ResultsEntity;
+    showLink?: boolean;
+}
+
+// const MovieCard = ({ movieSent, showLink = true }: { movieSent: ResultsEntity; showLink?: boolean }) => {
+// const MovieCard: React.FC<MovieCardProps> = ({ movieSent, showLink = true }) => {
+const MovieCard = ({ movieSent, showLink = true }: MovieCardProps) => {
     return (
         <div className="movie-card">
             <img src={imageURL + movieSent.poster_path} alt={movieSent.title} />
             <h2>{movieSent.title}</h2>
             <p>
-                <FaStar />
-                {movieSent.vote_average}
+                <FaStar />{movieSent.vote_average.toFixed(2)}
             </p>
             {showLink && <Link to={`/movie/${movieSent.id}`}>More details</Link>}
         </div>
