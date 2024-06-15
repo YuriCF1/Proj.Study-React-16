@@ -13,7 +13,7 @@ const MovieCard = ({ movieSent }: { movieSent: ResultsEntity }, showLink = true)
                 <FaStar />
                 {movieSent.vote_average}
             </p>
-            {showLink && <Link to={`/movie/${movieSent.id}`}>Detalhes</Link>}
+            {showLink && <Link to={`/movie/${movieSent.id}`}>More details</Link>}
         </div>
         // <div className="movies-container">
         //     {movieSent?.results ? movieSent?.results.length > 0 ? movieSent.results.map((movie) => (
