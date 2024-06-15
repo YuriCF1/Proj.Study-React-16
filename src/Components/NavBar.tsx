@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <nav className={styles.container} id="navbar">
       <h2>
-        <Link to="/"><BiCameraMovie /></Link>
+        <Link to="/"><BiCameraMovie /><h2>THIS IS CINEMA</h2></Link>
       </h2>
       <form action="" onSubmit={handleSubmit}>
         <label htmlFor="Search">Search</label>
