@@ -46,14 +46,14 @@ const Home = () => {
         )) : <p>Loading...</p> : <p>Error... Please, try again later</p>}
       </div>
       <div className="pages-container">
-        {page > 2 && (
+        {page > 1 && (
           <>
-            <button onClick={(e) => handlePages(e)} value={-2}>
-              {page - 2}
-            </button>
-            <button onClick={(e) => handlePages(e)} value={-1}>
-              {page - 1}
-            </button>
+            {page > 2 && (
+              <button onClick={(e) => handlePages(e)} value={-2}>{page - 2}</button>
+            )}
+            {page > 1 && (
+              <button onClick={(e) => handlePages(e)} value={-1}>{page - 1}</button>
+            )}
           </>
         )}
         <p>{page}</p>
