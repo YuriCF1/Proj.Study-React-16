@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { MovieResults, ResultsEntity } from "../Interfaces/MoviesInterface";
 import MovieCard from "../Components/MovieCard";
+import "./GeneralMoviesGrid.css"
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -24,11 +25,11 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h2 className="title">Melhores filmes</h2>
+      <h2 className="title">Best Movies Ever!</h2>
       <div className="movies-container">
         {topMovies?.results ? topMovies?.results.length > 0 ? topMovies.results.map((movie) => (
           <MovieCard key={movie.id} movieSent={movie} />
-        )) : <p>Carregando</p> : <p>Erro... Tente novamente mais tarde</p>}
+        )) : <p>Loading...</p> : <p>Error... Please, try again later</p>}
       </div>
     </div>
   )
