@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { MovieResults, ResultsEntity } from "../Interfaces/MoviesInterface";
+import { MovieResults } from "../Interfaces/MoviesInterface";
 import MovieCard from "../Components/MovieCard";
 import "./GeneralMoviesGrid.css"
 

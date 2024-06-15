@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa"
 import { Link } from "react-router-dom"
-import { MovieResults, ResultsEntity } from "../Interfaces/MoviesInterface"
+import {ResultsEntity } from "../Interfaces/MoviesInterface"
 
 const imageURL = import.meta.env.VITE_IMG
 
