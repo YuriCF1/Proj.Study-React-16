@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+# THIS IS CINEMA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+### Deploy of the project: Done
+https://cinema-six-tau.vercel.app/
 
-Currently, two official plugins are available:
+## About it
+Site made using TMDB's API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+The site rates and paginate the best movies ever, and search general movies too
 
-## Expanding the ESLint configuration
+<div id='comeco'>
+ </div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Languages and Frameworks
+- HTML
+- CSS
+- Typescript
+- React
+- Vite
+- Vercel
 
-- Configure the top-level `parserOptions` property like this:
+### Steps
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- [ X ] HTML structure
+- [ X ] CSS Style
+- [ X ] Browser-Router
+- [ X ] Creating Home page
+- [ X ] Creating Search page
+- [ X ] Creating Details page
+- [ X ] Setting pages option
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  
+
+<img src="https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-16/a22166162c5a4334b8a7ccc5095ccf1f42fbb463/public/example.png" alt="imagem do site">
+
+## 🤝 Colaborators
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/yf19/">
+        <img src="https://github.com/YuriCF1/YuriCF1/blob/main/99689063.jpg" width="100px;" alt="Foto do Yuri Cruz no GitHub"/><br>
+        <sub>
+          <b>Yuri Cruz</b>
+        </sub>
+      </a>
+    </td>
+ 
+</table>
+
+
+[⬆ Go back to top](#comeco)<br>
